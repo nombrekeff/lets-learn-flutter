@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:llf_4_what_are_widgets/screens/complete_example_screen.dart';
+import 'package:llf_4_what_are_widgets/screens/custom_widgets_screen.dart';
 import 'package:llf_4_what_are_widgets/screens/initial_example_screen.dart';
 import 'package:llf_4_what_are_widgets/screens/interactive_widget_screen.dart';
 import 'package:llf_4_what_are_widgets/screens/structural_widget_screen.dart';
@@ -22,6 +23,7 @@ class _MyAppState extends State<MyApp> {
         'interactive-example': (ctx) => const InteractiveWidgetScreen(),
         'structural-example': (ctx) => const StructuralWidgetScreen(),
         'complete-example': (ctx) => const CompleteExampleScreen(),
+        'custom-example': (ctx) => const CustomWidgetScreen(),
       },
       home: Scaffold(
         appBar: AppBar(
@@ -61,6 +63,14 @@ class _MyAppState extends State<MyApp> {
                     title: const Text('Structural Widget'),
                     onTap: () {
                       Navigator.of(context).pushNamed('structural-example');
+                    },
+                    trailing: const Icon(Icons.chevron_right),
+                  ),
+                  const Divider(),
+                  ListTile(
+                    title: const Text('Custom Widget'),
+                    onTap: () {
+                      Navigator.of(context).pushNamed('custom-example');
                     },
                     trailing: const Icon(Icons.chevron_right),
                   ),

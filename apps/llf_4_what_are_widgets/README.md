@@ -1,5 +1,7 @@
 # llf_4_what_are_widgets
 
+![Let's learn Flutter #4 - Flutter Widgets explained header image](./media/header.png)
+
 Flutter project and widgets created for [Flutter Widgets explained - LLF #4]() over on DEV.to. 
 
 ## Links

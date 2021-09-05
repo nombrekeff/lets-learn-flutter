@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:llf_4_what_are_widgets/screens/complete_example_screen.dart';
+import 'package:llf_4_what_are_widgets/screens/custom_stateful_widgets_screen.dart';
 import 'package:llf_4_what_are_widgets/screens/custom_widgets_screen.dart';
 import 'package:llf_4_what_are_widgets/screens/initial_example_screen.dart';
 import 'package:llf_4_what_are_widgets/screens/interactive_widget_screen.dart';
@@ -24,6 +25,7 @@ class _MyAppState extends State<MyApp> {
         'structural-example': (ctx) => const StructuralWidgetScreen(),
         'complete-example': (ctx) => const CompleteExampleScreen(),
         'custom-example': (ctx) => const CustomWidgetScreen(),
+        'custom-stateful-example': (ctx) => const CustomStatefulWidgetScreen(),
       },
       home: Scaffold(
         appBar: AppBar(
@@ -42,7 +44,6 @@ class _MyAppState extends State<MyApp> {
                     },
                     trailing: const Icon(Icons.chevron_right),
                   ),
-                  const Divider(),
                   ListTile(
                     title: const Text('Complete Example'),
                     onTap: () {
@@ -50,7 +51,6 @@ class _MyAppState extends State<MyApp> {
                     },
                     trailing: const Icon(Icons.chevron_right),
                   ),
-                  const Divider(),
                   ListTile(
                     title: const Text('Interactive Widget'),
                     onTap: () {
@@ -58,7 +58,6 @@ class _MyAppState extends State<MyApp> {
                     },
                     trailing: const Icon(Icons.chevron_right),
                   ),
-                  const Divider(),
                   ListTile(
                     title: const Text('Structural Widget'),
                     onTap: () {
@@ -66,11 +65,17 @@ class _MyAppState extends State<MyApp> {
                     },
                     trailing: const Icon(Icons.chevron_right),
                   ),
-                  const Divider(),
                   ListTile(
                     title: const Text('Custom Widget'),
                     onTap: () {
                       Navigator.of(context).pushNamed('custom-example');
+                    },
+                    trailing: const Icon(Icons.chevron_right),
+                  ),
+                  ListTile(
+                    title: const Text('Custom Stateful Widget'),
+                    onTap: () {
+                      Navigator.of(context).pushNamed('custom-stateful-example');
                     },
                     trailing: const Icon(Icons.chevron_right),
                   ),

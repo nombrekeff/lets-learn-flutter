@@ -34,23 +34,15 @@ class _TodoItemStatefulState extends State<TodoItemStateful> {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 16),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(
-            widget.label,
-            style: TextStyle(
-              decoration: isComplete == true ? TextDecoration.lineThrough : TextDecoration.none,
-            ),
-          ),
-          Checkbox(
-            value: isComplete,
-            onChanged: _completeStateChanged,
-          ),
-        ],
+    return CheckboxListTile(
+      title: Text(
+        widget.label,
+        style: TextStyle(
+          decoration: isComplete == true ? TextDecoration.lineThrough : TextDecoration.none,
+        ),
       ),
+      onChanged: _completeStateChanged,
+      value: isComplete,
     );
   }
 }

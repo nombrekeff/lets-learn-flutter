@@ -1,5 +1,7 @@
 # Let's learn flutter - Code Repo
 
+![repo cover image](./media/gh-cover.png)
+
 This repo contains all the examples showcased in the [Let's learn Flutter series](https://dev.to/nombrekeff/series/14292) I'm doing over on DEV.to.
 
 ### What does it cover?

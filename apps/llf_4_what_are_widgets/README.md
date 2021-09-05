@@ -1,6 +1,11 @@
 # llf_4_what_are_widgets
 
-A new Flutter project.
+Flutter project and widgets created for [LLF #4]() over on DEV.to. 
+
+## Links
+* [Let's learn Flutter]()
+* [What are Widgets]()
+
 
 ## Getting Started
 

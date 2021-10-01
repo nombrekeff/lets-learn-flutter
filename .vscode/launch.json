@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "llf_4_what_are_widgets",
+            "cwd": "apps/llf_4_what_are_widgets",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "llf_4_what_are_widgets (profile mode)",
+            "cwd": "apps/llf_4_what_are_widgets",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "llf_5_flutter_style_in_css",
+            "cwd": "apps/llf_5_flutter_style_in_css",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "llf_5_flutter_style_in_css (profile mode)",
+            "cwd": "apps/llf_5_flutter_style_in_css",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        }
+    ]
+}

@@ -1,12 +1,11 @@
-# Flutter Widgets explained - LLF #4
+# Flutter styling explained in CSS - LLF #4
 
-![Let's learn Flutter #4 - Flutter Widgets explained header image](./media/header.png)
+![Let's learn Flutter #5 -Flutter styling explained in CSS header image](./media/header.png)
 
-Flutter project and widgets created for [Flutter Widgets explained - LLF #4]() over on DEV.to. 
+Flutter project and widgets created for [Flutter styling explained in CSS - LLF #5]() over on DEV.to. 
 
 ## Links
 * [Series](https://dev.to/nombrekeff/series/14292)
-* [What are Widgets]()
 
 
 ## Getting Started

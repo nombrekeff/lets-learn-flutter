@@ -19,4 +19,5 @@ These are some of the thing the series covers:
 
 ## Contents
 * [LLF #4 Widgets explained](./apps/llf_4_what_are_widgets)
+* [LLF #5 Flutter styling explained in CSS](./apps/llf_5_flutter_style_in_css)
 
